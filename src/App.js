@@ -1,8 +1,11 @@
+import React from "react";
+//Components
+import Header from "./Components/Layout/Header";
 function App() {
   return (
-    <div>
-      <h2>Initial commit</h2>
-    </div>
+    <React.Fragment>
+      <Header></Header>
+    </React.Fragment>
   );
 }
 
